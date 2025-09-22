@@ -17,14 +17,13 @@
 ## Flutter Definitions
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
-
 |------|----------------------------|----------------|-------------------|-------------|
 | Main | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |in maindart, void main(=> runApp(MyPortfolioApp0):  |
 |MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` | getting something started |return MaterialApp(debugShowCheckedModeBanner: false, title: 'TSA Portfolio', and more|
 | Scaffold  | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | List of trems  |in showcasedart, return Scalfold(body: Column(mainAxisAilgement: MainAxisAilgement.start, children.  |
-|  Column   | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
+|  Column   | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  child: Column(  children: [ |
 |  Row      | A widget that shows things side-by-side. | `Row(...)` |  |  |
-| Container | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
+| Container | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  return Container(  margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 16), padding: const EdgeInsets.all(12), decoration: BoxDecoration( |
 | Text      | A widget to display text on the screen. | `Text('Hello')` |  |  |
 |Image.network| A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
 |ElevatedButton| A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
