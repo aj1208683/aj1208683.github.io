@@ -70,3 +70,12 @@
 |Abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
 | Overried  | Changing how a built-in or inherited function behaves. | `@override` |  |  |
 |  Void     | A function that does not return a value. | `void printMessage() {}` |  |  |
+|  Scanner   |Creates a scanner object to take input from user | Scanner in = new Scanner(System.in); |  |  |
+| import Scanner    | Gives access to Scanner class, required at top |import java.util.Scanner;  |  |  |
+|  print line statement   | prints the content in the parenthesis |System  |  |  |
+|      |  |  |  |  |
+|      |  | |  |  |
+|      |  |  |  |  |
+|     |  ||  |  |
+|  Void     | A function that does not return a value. | `void printMessage() {}` |  |  |
+
